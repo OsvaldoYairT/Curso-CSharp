@@ -122,17 +122,17 @@ namespace ProyectoPrincipal
             --d;
             Console.WriteLine("Despues de pre-decrementar: " + d);
 
-            for (int i = 0; i <= 10; i++)
-            {
-                Console.Write(i);
-                if (i == 10)
-                {
-                    for (int j = 0; i <= 10; j--)
-                    {
-                        Console.Write(j);
-                    }
-                }
-            }
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    Console.Write(i);
+            //    if (i == 10)
+            //    {
+            //        for (int j = 0; i <= 10; j--)
+            //        {
+            //            Console.Write(j);
+            //        }
+            //    }
+            //}
         }
     }
 }
