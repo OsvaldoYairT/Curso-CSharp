@@ -8,7 +8,7 @@ namespace ProeyctoPrincipal
 {
     public class Ejercicio1
     {
-        public Ejercicio1()
+        public void Ejercicio()
         {
 
             Console.WriteLine("--Proporciona tus datos --");
