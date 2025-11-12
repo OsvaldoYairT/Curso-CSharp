@@ -81,10 +81,6 @@ namespace ProyectoPrincipal
             var edad = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Tu edad es: " + edad);
 
-            //Ejercicio
-
-            //Ejercicio1 ejercicio = new Ejercicio1();
-
             //Operadores aritmeticos
 
             var suma = 3 + 4;
