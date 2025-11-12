@@ -184,6 +184,44 @@ namespace ProyectoPrincipal
             //operador menor que <=
             var menorIgual = valor1 <= valor2;
             Console.WriteLine("¿Valor1 es menor o igual que Valor2? : " + menorIgual);
+
+            //Operadores logicos
+            var condicion1 = true;
+            var condicion2 = false;
+
+            //operador AND &&
+            var operadorAND = condicion1 && condicion2;
+            Console.WriteLine("El resultado del operador AND es: " + operadorAND);
+
+            //operador OR ||
+            var operadorOR = condicion1 || condicion2;
+            Console.WriteLine("El resultado del operador OR es: " + operadorOR);
+
+            //operador NOT !
+            var operadorNOT = !condicion1;
+            var operadorNOT2 = !condicion2;
+            Console.WriteLine("El resultado del operador NOT es: " + operadorNOT);
+            Console.WriteLine("El resultado del operador NOT es: " + operadorNOT2);
+
+            //Precedencia de operadores
+            //1- Parecentecis y corchetes ()
+            //2- Operadores uniarios -,++, -- !
+            //3- Operadores aritmeticos *, /, %
+            //4- Operadores aritmeticos +, -
+            //5- Operadores relacionales <, <=, >, >=
+            //6- Operadores de igualdad ==, !=
+            //7- Operadores logicos AND && y OR ||
+            //8- Adignacion =, +=, -=, *=, /=, %=
+
+            //Ejemplo. Se revisa de izquierda a derecha
+            var resultado = 12 / 3 + 2 * 3 - 1;
+            // Paso 1: division 12 / 3 = 4
+            // Paso 2: multiplicación 2 * 3 = 6
+            // Paso 3: suma 4 + 6 = 10
+            // Paso 4: resta 10 - 1 = 9
+            Console.WriteLine("El resultado de la precedencia de operadores es: " + resultado);
+
+
         }
     }
 }
