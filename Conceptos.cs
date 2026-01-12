@@ -170,7 +170,7 @@ namespace ProyectoPrincipal
             Console.WriteLine("¿Valor1 es mayor que Valor2? : " + mayor);
 
             //operador mayor que >=
-            var mayorIgual = valor1 > valor2;
+            var mayorIgual = valor1 >= valor2;
             Console.WriteLine("¿Valor1 es mayor que Valor2? : " + mayorIgual);
 
             //operador menor que <

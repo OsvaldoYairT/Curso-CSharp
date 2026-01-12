@@ -15,6 +15,11 @@ namespace ProyectoPrincipal
             Console.WriteLine("2.- Ejercicio 1");
             Console.WriteLine("3.- Ejercicio 2");
             Console.WriteLine("4.- Sentencias");
+            Console.WriteLine("5.- Ejercicio 3");
+            Console.WriteLine("6.- Ciclos");
+            Console.WriteLine("7.- Ejercicio 4");
+            Console.WriteLine("8.- Arreglos");
+            Console.WriteLine("9.- Matrices");
 
             opcion = Convert.ToInt32(Console.ReadLine());
             switch (opcion)
@@ -54,6 +59,35 @@ namespace ProyectoPrincipal
                     Console.WriteLine("Ejercicio dia de la semana");
                     ejercicio3.Ejercicio2();
 
+                    break;
+                case 6:
+                    Console.WriteLine("Ciclos");
+                    Ciclos ciclos = new Ciclos();
+                    ciclos.CicloWhile();
+                    ciclos.CicloWhileNumer();
+                    ciclos.CicloDoWhile();
+                    ciclos.CicloFor();
+                    break;
+                case 7:
+                    Console.WriteLine("Ejercicio 7");
+                    Ejercicio4 ejercicio4 = new Ejercicio4();
+                    ejercicio4.Ejercicio();
+                    break;
+                case 8:
+                    Console.WriteLine("Arreglos");
+                    Arreglo arreglo = new Arreglo();
+                    arreglo.Arreglos();
+                    arreglo.ArregloDeclarativo();
+                    arreglo.ArregloFor();
+                    arreglo.ArreglosValore();
+                    break;
+                case 9:
+                    Console.WriteLine("Matrices");
+                    Matrices matrices = new Matrices();
+                    matrices.Matrice();
+                    matrices.MatriceSimplificada();
+                    matrices.MatriceIterar();
+                    matrices.MatriceIntroducirDatos();
                     break;
                 default:
                     Console.WriteLine("Opcion no valida");
