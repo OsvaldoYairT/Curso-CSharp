@@ -20,6 +20,8 @@ namespace ProyectoPrincipal
             Console.WriteLine("7.- Ejercicio 4");
             Console.WriteLine("8.- Arreglos");
             Console.WriteLine("9.- Matrices");
+            Console.WriteLine("10.- Procedimientos");
+            Console.WriteLine("11.- Funciones");
 
             opcion = Convert.ToInt32(Console.ReadLine());
             switch (opcion)
@@ -88,6 +90,21 @@ namespace ProyectoPrincipal
                     matrices.MatriceSimplificada();
                     matrices.MatriceIterar();
                     matrices.MatriceIntroducirDatos();
+                    break;
+                case 10:
+                    Console.WriteLine("Procedimientos");
+                    Procedimientos procedimientos = new Procedimientos();
+                    procedimientos.Saludo();
+                    procedimientos.Suma();
+                    procedimientos.ReferenciaValor();
+                    procedimientos.ReferenciaReferencia();
+                    break;
+                case 11:
+                    Console.WriteLine("Funciones");
+                    Funciones funciones = new Funciones();
+                    funciones.LongitudCadena();
+                    funciones.SubCadena();
+                    funciones.ConcatenarCadenas();
                     break;
                 default:
                     Console.WriteLine("Opcion no valida");
